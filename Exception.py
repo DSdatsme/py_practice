@@ -9,7 +9,6 @@ for i in range(int(raw_input())):
     except ValueError as e:
         print "Error Code: %s" % (e)
 
-
 '''
 3
 1 0

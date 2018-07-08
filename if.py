@@ -3,14 +3,13 @@ if __name__ == '__main__':
     L = []
     for i in range(N + 1):
         mInput = raw_input().split(" ")
-        if mInput[0] == "insert" : L.insert(int(mInput[1]),int(mInput[2]))
-        if mInput[0] == "remove" : L.remove(int(mInput[1]))
-        if mInput[0] == "print" : print(L)
-        if mInput[0] == "append" : L.append(int(mInput[1]))
-        if mInput[0] == "sort" : L.sort()
-        if mInput[0] == "pop" : L.pop()
-        if mInput[0] == "reverse" : L.reverse()
-
+        if mInput[0] == "insert": L.insert(int(mInput[1]), int(mInput[2]))
+        if mInput[0] == "remove": L.remove(int(mInput[1]))
+        if mInput[0] == "print": print(L)
+        if mInput[0] == "append": L.append(int(mInput[1]))
+        if mInput[0] == "sort": L.sort()
+        if mInput[0] == "pop": L.pop()
+        if mInput[0] == "reverse": L.reverse()
 
 ''' input
 29

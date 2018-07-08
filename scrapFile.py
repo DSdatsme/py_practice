@@ -9,4 +9,4 @@ numbers = [
 ]
 
 # your code goes here
-print(filter(lambda x : x < 238 and x % 2 == 0, numbers))
+print(filter(lambda x: x < 238 and x % 2 == 0, numbers))
